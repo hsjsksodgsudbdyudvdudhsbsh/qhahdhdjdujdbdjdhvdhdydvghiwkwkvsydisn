@@ -16,12 +16,12 @@ from colorama import Fore, Style, init
 import progressbar
 import time
 
-# © Lynx | DPR_LynX_Lovers — 2025
+# © ayan | @ayanhere09 — 2025
 # No stealing. No tracing. No funny business.
 # Engineered in the shadows by DPRLynX on June 16th, 2025
 
-__CHANNEL_USERNAME__ = "DPR_LynXLovers"
-__GROUP_USERNAME__   = "DPR_LynX"
+__CHANNEL_USERNAME__ = "CP_Ayan"
+__GROUP_USERNAME__   = "CP_Ayan_Chat"
 
 init(autoreset=True)
 
@@ -77,18 +77,19 @@ def show_progress(message="Loading...", duration=1):
 banner = """
 ╔════════════════════════════════════════════════════╗
 ║                                                    ║
-║           ╔═══╗───╔╗──────╔═══╗                    ║
-║           ║╔═╗║───║║──────║╔═╗║                    ║
-║           ║║─╚╬╗─╔╣╚═╦══╦═╣║─╚╬══╦═╦══╗            ║
-║           ║║─╔╣║─║║╔╗║║═╣╔╣║─╔╣╔╗║╔╣║═╣            ║
-║           ║╚═╝║╚═╝║╚╝║║═╣║║╚═╝║╚╝║║║║═╣            ║
-║           ╚═══╩═╗╔╩══╩══╩╝╚═══╩══╩╝╚══╝            ║
-║           ────╔═╝║                                 ║
-║           ────╚══╝                                 ║
+║             
+   $$$$$$\ $$\     $$\  $$$$$$\  $$\    $$\       
+   $$  __$$\\$$\   $$  |$$  __$$\ $$$\  $$ |      
+   $$ /  $$ |\$$\ $$  / $$ /  $$ |$$$$\ $$ |      
+   $$$$$$$$ | \$$$$  /  $$$$$$$$ |$$ $$\$$ |      
+   $$  __$$ |  \$$  /   $$  __$$ |$$ \$$$$ |      
+   $$ |  $$ |   $$ |    $$ |  $$ |$$ |\$$$ |      
+   $$ |  $$ |   $$ |    $$ |  $$ |$$ | \$$ |      
+\__|  \__|   \__|    \__|  \__|\__|  \__|                                       ║
 ╠════════════════════════════════════════════════════╣
-║               ⚡ CyberCPM TOOLS ⚡                 ║
+║               ⚡ CPMAyan 🇵🇰 TOOLS ⚡                 ║
 ║           Car Parking Multiplayer Utilities        ║
-║           Coded by: ɖքʀ•ʟʏռӼ | © 2025              ║
+║           Coded by: @ayanhere09 | © 2025              ║
 ╚════════════════════════════════════════════════════╝
             [ Press Enter to continue ]
 """[1:]
@@ -106,7 +107,6 @@ def load_key_data(cpm):
     data = cpm.get_key_data()
     print(Colorate.Horizontal(Colors.green_to_white, "=" * 20 + "[ Users Details ]" + "=" * 21))
     print(f"  >> Key Access  : {data.get('access_key')}")
-    print(f"  >> Telegram ID : {data.get('telegram_id')}")
     print(f"  >> Balance     : {'Unlimited' if data.get('is_unlimited') else data.get('coins')}")
 
 def count_saved_cars():
@@ -225,8 +225,8 @@ if __name__ == "__main__":
             choice = input(f"{Fore.CYAN}  ---[{Style.RESET_ALL} Select menu [01-18]: ").strip()
 
             if choice == "00":
-                print(f"{Fore.CYAN}  ---[ Thanks for using our tool!\n ---[  Join our Telegram group: @DPR_LynX")
-                sys.exit()
+                print(f"{Fore.CYAN}  ---[ Thanks for using our tool!\n ---[  Join our Telegram group: @CP_AYAN")
+                sys.exit() 
 
             elif choice == "01":
                 print(Colorate.Horizontal(Colors.green_to_white, "=" * 58))
