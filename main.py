@@ -99,9 +99,9 @@ System.Clear()
 def banner():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(Colorate.Horizontal(Colors.green_to_white, "=" * 58))
-    print(Colorate.Horizontal(Colors.red_to_yellow, "CPM2 Tools Version: 1.02.4 || Author https://t.me/@DPR_LynX"))
+    print(Colorate.Horizontal(Colors.red_to_yellow, "CPM2 Tools Version: 1.02.4 || Author https://t.me/@ayanhere09"))
     print(Colorate.Horizontal(Colors.green_to_white, "=" * 58))
-    print("< Wajib Logout Account CPM Sebelum Menggunakan Tools Ini >")
+    print("< Wajib Logout Account From CPM Before Using The Tool >")
 
 def load_key_data(cpm):
     data = cpm.get_key_data()
